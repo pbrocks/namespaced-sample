@@ -1,0 +1,6 @@
+/**
+* =IF(COUNTIF(B$2:$B2,)>1,"","Original")
+*/
+.index-php  #wpcontent {
+	background: salmon;
+}

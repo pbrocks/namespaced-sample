@@ -1,0 +1,1 @@
+jQuery("#psp-select-posts select").select2();
