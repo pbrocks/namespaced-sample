@@ -11,9 +11,9 @@ class Setup_Functions {
 	}
 
 	public static function wp_admin_style() {
-		wp_register_style( 'admin-css', plugins_url( 'css/admin.css', dirname( __FILE__ ) ) );
+		wp_register_style( 'admin-css', plugins_url( 'css/admin.css', __FILE__ ) );
 		wp_enqueue_style( 'admin-css' );
-		wp_register_style( 'admin-js', plugins_url( 'js/admin.js', dirname( __FILE__ ) ) );
+		wp_register_style( 'admin-js', plugins_url( 'js/admin.js',  __FILE__ ) );
 		wp_enqueue_style( 'admin-js' );
 	}
 
