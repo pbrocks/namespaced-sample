@@ -16,6 +16,8 @@ class Dev_Dashboard {
 	public static function dev_menu_page() {
 		global $menu, $submenu;
 
+			echo '<h2>' . __FILE__ . '</h2>';
+
 			echo '<h3>You are viewing this menu from a ';
 			echo Setup_Functions::detect_mobile_device();
 			echo ' device</h3>';
