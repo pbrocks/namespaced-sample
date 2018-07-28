@@ -11,10 +11,10 @@ class Setup_Functions {
 	}
 
 	public static function wp_admin_style() {
-		wp_register_style( 'admin-css', plugins_url( 'css/admin.css', dirname( __FILE__ ) );
-		wp_enqueue_style( 'admin-css' );
-		wp_register_script( 'admin-js', plugins_url( 'js/admin.js', dirname( __FILE__ )  ), array( 'jquery' ) );
-		wp_enqueue_script( 'admin-js' );
+		wp_register_style( 'admin', plugins_url( 'css/admin.css', dirname( __FILE__ ) ) );
+		wp_enqueue_style( 'admin' );
+		wp_register_script( 'admin', plugins_url( 'js/admin.js',  dirname( __FILE__ ) ), array( 'jquery' ), time() );
+		wp_enqueue_script( 'admin' );
 	}
 
 
